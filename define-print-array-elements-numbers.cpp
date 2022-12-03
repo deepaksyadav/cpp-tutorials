@@ -1,0 +1,12 @@
+//program for  numerical array declaration and printing them with the help of for loop
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int myNumbers[5] = {10, 20, 30, 40, 50};
+  for (int i = 0; i < 5; i++) {
+    cout << myNumbers[i] << "\n";
+  }
+  return 0;
+}
